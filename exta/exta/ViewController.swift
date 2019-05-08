@@ -11,12 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var titulo: UILabel!
-    @IBOutlet weak var descripcion: UILabel!
+
+    @IBOutlet weak var desc: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         titulo.text = animales[miIndex]
         
-        descripcion.text = descripcion[miIndex]
+        desc.text = descripcion[miIndex]
         // Do any additional setup after loading the view, typically from a nib.
     }
 
